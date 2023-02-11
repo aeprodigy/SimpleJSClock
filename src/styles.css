@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #e3e3e3;
+}
+
+.clock{
+	width: 550px;
+	height: 300px;
+	margin: auto;
+	margin-top: 150px;
+	border-style: solid;
+	border-radius: 15px;
+	background-color: grey; 
+}
+
+.inner-line{
+	width: 500px;
+	height: 250px;
+	margin: auto;
+	margin-top: 25px;
+	border-style: solid;
+	border-color: black;
+	background-color: black;
+	color: white;
+}
+
+.hours{
+	width: 170px;
+	height: 190px;
+	margin-top: 30px;
+	margin-left: 20px;
+	border-style: solid;
+	border-color: transparent;
+	text-align: center;
+	font-size: 130px;
+	font-family: verdana;
+}
+
+.colon{
+	width: 20px;
+	height: 30px;
+	font-size: 80px;
+	margin-left: 185px;
+	margin-top: -165px;
+	font-family: verdana;
+}
+
+.minutes{
+	width: 170px;
+	height: 190px;
+	margin-top: -61px;
+	margin-left: 210px;
+	border-style: solid;
+	border-color: transparent;
+	text-align: center;
+	font-size: 130px;
+	font-family: verdana;
+}
+
+.seconds{
+	width: 80px;
+	height: 80px;
+	margin-top: -196px;
+	margin-left: 400px;
+	border-style: solid;
+	border-color: transparent;
+	text-align: center;
+	font-size: 60px;
+	font-family: verdana;
+}
