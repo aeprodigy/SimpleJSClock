@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: #e3e3e3;
+	
 }
 
 .clock{
@@ -28,13 +29,14 @@ body{
 .hours{
 	width: 170px;
 	height: 190px;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-left: 20px;
 	border-style: solid;
 	border-color: transparent;
 	text-align: center;
-	font-size: 130px;
+	font-size: 180px;
 	font-family: verdana;
+	font-style: italic;
 }
 
 .colon{
@@ -44,17 +46,21 @@ body{
 	margin-left: 185px;
 	margin-top: -165px;
 	font-family: verdana;
+	font-style: italic;
+	
 }
 
 .minutes{
 	width: 170px;
 	height: 190px;
-	margin-top: -61px;
+	margin-top: -31px;
 	margin-left: 210px;
 	border-style: solid;
 	border-color: transparent;
 	text-align: center;
-	font-size: 130px;
+	font-size: 90px;
+	font-style: italic;
+	font-weight: 600;
 	font-family: verdana;
 }
 
@@ -66,6 +72,9 @@ body{
 	border-style: solid;
 	border-color: transparent;
 	text-align: center;
-	font-size: 60px;
+	font-size: 50px;
+	font-weight:600;
+	color: rgb(247, 65, 65);
 	font-family: verdana;
+	font-style: italic;
 }
