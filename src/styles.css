@@ -1,7 +1,11 @@
+@font-face {
+	font-family: CursedTimerUlil-Aznm;
+	src: url('https: //www.fontspace.com/cursed-timer-ulil-font-f2941');
+}
 body{
 	margin: 0;
 	padding: 0;
-	background-color: #e3e3e3;
+	background: linear-gradient(to right, #ee0979, #ff6a00);
 	
 }
 
@@ -12,7 +16,7 @@ body{
 	margin-top: 150px;
 	border-style: solid;
 	border-radius: 15px;
-	background-color: grey; 
+	background-color: #f3f3f3; 
 }
 
 .inner-line{
@@ -30,11 +34,12 @@ body{
 	width: 170px;
 	height: 190px;
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 10px;
 	border-style: solid;
 	border-color: transparent;
 	text-align: center;
-	font-size: 180px;
+	font-size: 130px;
+	font-weight: 600;
 	font-family: verdana;
 	font-style: italic;
 }
@@ -43,7 +48,7 @@ body{
 	width: 20px;
 	height: 30px;
 	font-size: 80px;
-	margin-left: 185px;
+	margin-left: 205px;
 	margin-top: -165px;
 	font-family: verdana;
 	font-style: italic;
@@ -54,7 +59,7 @@ body{
 	width: 170px;
 	height: 190px;
 	margin-top: -31px;
-	margin-left: 210px;
+	margin-left: 220px;
 	border-style: solid;
 	border-color: transparent;
 	text-align: center;
@@ -74,7 +79,7 @@ body{
 	text-align: center;
 	font-size: 50px;
 	font-weight:600;
-	color: rgb(247, 65, 65);
+	color: #ff6a00;
 	font-family: verdana;
 	font-style: italic;
 }
